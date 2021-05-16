@@ -1,7 +1,7 @@
 basic.forever(function () {
     if (pins.digitalReadPin(DigitalPin.P2) == 0) {
-        pins.digitalWritePin(DigitalPin.P0, 1)
-        pins.digitalWritePin(DigitalPin.P1, 0)
+        pins.digitalWritePin(DigitalPin.P0, 0)
+        pins.digitalWritePin(DigitalPin.P1, 1)
         basic.showIcon(IconNames.Heart)
         basic.pause(2000)
         pins.digitalWritePin(DigitalPin.P0, 0)
