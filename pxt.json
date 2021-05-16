@@ -1,5 +1,5 @@
 {
-    "name": "Hand Rub",
+    "name": "Microbit Hand Rub",
     "description": "",
     "dependencies": {
         "core": "*",
